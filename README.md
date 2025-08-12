@@ -30,11 +30,6 @@ This is a Next.js starter project for CreditCanvas, a loan application and manag
 
 3.  **Set up MongoDB:**
     *   Ensure you have a MongoDB instance (e.g., from MongoDB Atlas).
-    *   Update the MongoDB connection string in `src/lib/mongodb.ts`. Replace `<credentials>` with your actual username and password:
-        ```typescript
-        // src/lib/mongodb.ts
-        const MONGODB_URI = "mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.h4pm32y.mongodb.net/?retryWrites=true&w=majority";
-        ```
     *   For production, it's highly recommended to use environment variables for your MongoDB URI.
 
 4.  **Run the development server:**
